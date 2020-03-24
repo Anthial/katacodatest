@@ -1,2 +1,2 @@
-Simply testing the ability to display host url:
-https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/
+The first step to getting BuildBot running on your machine through Docker, is making sure you've got Docker installed. 
+Please run  `docker --version`{{execute HOST1}}
