@@ -1,8 +1,8 @@
 {
-  "title": "BuildBot",
-  "description": "Install buildbot",
+  "title": "BuildBot Docker and Git Setup Tutorial",
+  "description": "This tutorial goes through the steps to install a Docker image of the Continuous Integration Tool BuildBot as well as steps on how to integrate it with your own Git.",
   "difficulty": "Beginner",
-  "time": "45mins",
+  "time": "45 minutes",
   "details": {
     "steps": [
       {
@@ -12,7 +12,35 @@
       {
         "title": "Step 2",
         "text": "step2.md"
-      }
+      },
+      {
+        "title": "Step 3",
+        "text": "step3.md"
+      },
+      {
+        "title": "Step 4",
+        "text": "step4.md"
+      },
+      {
+        "title": "Step 5",
+        "text": "step5.md"
+      },
+      {
+        "title": "Step 6",
+        "text": "step6.md"
+      },
+      {
+        "title": "Step 7",
+        "text": "step7.md"
+      },
+      {
+        "title": "Step 8",
+        "text": "step8.md"
+      },
+      {
+        "title": "Step 9",
+        "text": "step9.md"
+      },
     ],
     "intro": {
       "text": "intro.md"
