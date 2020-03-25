@@ -1,5 +1,12 @@
-If you have now followed the tutorial correctly. The forced build should be successfull. 
-BuildBot presents a number of information regarding the build such as from where it the repository used to build things to debug information.
-Feel free to explore the the tabs before proceeding to the next step. 
+So, you've learned how to run the BuildBot Docker image, how to change the Host URL, and how to forcefully run Builds using the standard BuildBot example.
+However, what if you want to use your own GitHub repository? How do you change that? 
 
-![](https://i.gyazo.com/449f67060abe8e9983c06ad3715bb6e8.gif)
+Well, this is a bit more complex than one would have perhaps hoped for so it will take a little bit of explainig. The primary source of information for the BuildBot Docker image comes from the BuildBot Docker image archive,
+presented in "docker-compose.yml" as BUILDBOT_CONFIG_URL. This is technically a link to the very same BuildBot image used to clone this entire repository, so when the BuildBot Docker image is initialized, it grabs itself,
+but archived, and uses that to setup its own configuration. Perhaps it could be considered a bit redundent since the important configuration file needed "master.cfg" is already in the BuildBot Docker image repository,
+however, it is what it is. This does however mean that it is not possible to change the configuration to BuildBot from within the KataCoda environment.
+
+In turn, we shall pretend to do some necessary changes to the "master.cfg" file, such as to configure it to use your own GitHub repository. Afterwards, we shall cheat a bit and give you a preconfigured BUILDBOT_CONFIG_URL to
+put in the "docker-compose.yml"
+
+The first step however, is to shut down BuildBot. This can be done in many ways, but `docker-compose down`{{execute HOST1}}, should work.
