@@ -7,7 +7,7 @@ Moving on to something more functional, the category of "#CHANGESOURCES" deals w
 In our case a GitPoller is used. There are more types of repositories than ones using Git so if you want more information about those checkout [this documentation](https://docs.buildbot.net/latest/manual/configuration/changesources.html).
 We are going to change the value `git://github.com/buildbot/pyflakes.git` to the value `git://github.com/Anthial/pythonfun.git`. So now, if any changes were made to this Git repository while this BuildBut was running, 
 it would perform "runtests". 
-###### 8gICAgICAgICAgICAgIA0KICB8ICAgICwgYGAgIChcLyAgL18gICAgICAgIA0KICAgXCwuLT4uXyAgICBcWC09L14g
+<sub>8gICAgICAgICAgICAgIA0KICB8ICAgICwgYGAgIChcLyAgL18gICAgICAgIA0KICAgXCwuLT4uXyAgICBcWC09L14g</sub>
 
 
 Please move on to the next step

@@ -5,7 +5,7 @@ So now, to add all of the changes done to the "master.cfg" please change the "BU
 to `https://github.com/Anthial/buildbot-docker-example-config/archive/master.tar.gz`.
 
 Once you've done that it is time to make sure that everything works. Please run the command `docker-compose up`{{execute HOST1}}. 
-###### AgfCAgICAge19fKSAgICAgICAgICAgDQogICAgICAgICAgICgpYA0K" && clear && base64 -d <<< $secret   
+<sub>AgfCAgICAge19fKSAgICAgICAgICAgDQogICAgICAgICAgICgpYA0K" && clear && base64 -d <<< $secret</sub>  
 
 
 Now! Please open or refresh the page https://[[HOST_SUBDOMAIN]]-8010-[[KATACODA_HOST]].environments.katacoda.com/. Head into the Builds tab and then further into the builders tab again. 

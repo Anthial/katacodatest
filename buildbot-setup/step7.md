@@ -8,7 +8,7 @@ however, it is what it is. This does however mean that it is not possible to cha
 
 In turn, we shall pretend to do some necessary changes to the "master.cfg" file, such as to configure it to use your own GitHub repository. Afterwards, we shall cheat a bit and give you a preconfigured BUILDBOT_CONFIG_URL to
 put in the "docker-compose.yml". 
-###### ICAgIC8vICAvICAgICANCiBcXy8nIFwgICAgICAgICB8LyAgLyAgICAgICAgIA0KICB8ICAgIHwgICBfLF4tJy8gIC
+<sub>ICAgIC8vICAvICAgICANCiBcXy8nIFwgICAgICAgICB8LyAgLyAgICAgICAgIA0KICB8ICAgIHwgICBfLF4tJy8gIC</sub>
 
 
 The first step however, is to shut down BuildBot. This can be done in many ways, but the command `docker-compose down`{{execute HOST1}} done inside of the simple folder should start a graceful shutdown. However,
