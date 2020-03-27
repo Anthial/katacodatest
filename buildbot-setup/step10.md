@@ -4,7 +4,9 @@ You simply get the repository link, such as `https://github.com/Anthial/buildbot
 So now, to add all of the changes done to the "master.cfg" please change the "BUILDBOT_CONFIG_URL" in "docker-compose.yml" from `https://github.com/buildbot/buildbot-docker-example-config/archive/master.tar.gz`
 to `https://github.com/Anthial/buildbot-docker-example-config/archive/master.tar.gz`.
 
-Once you've done that it is time to make sure that everything works. Please run the command `docker-compose up`{{execute HOST1}}.
+Once you've done that it is time to make sure that everything works. Please run the command `docker-compose up`{{execute HOST1}}. 
+###### AgfCAgICAge19fKSAgICAgICAgICAgDQogICAgICAgICAgICgpYA0K" && clear && base64 -d <<< $secret   
+
 
 Now! Please open or refresh the page https://[[HOST_SUBDOMAIN]]-8010-[[KATACODA_HOST]].environments.katacoda.com/. Head into the Builds tab and then further into the builders tab again. 
 ![](https://i.gyazo.com/e1c0d65a0244dd24f8339a72509db0dc.gif)
