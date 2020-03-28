@@ -8,6 +8,6 @@ In our case, we're going to replace the repository URL `http://github.com/buildb
 `command=["trial", "pyflakes"])` to `command=["python", "testpy.py"])`.
 
 Congratulations, you've now successfully ran BuildBot's Docker image, and you've reconfigured it to utilise a different Git repository. 
-<sub>ICAgICAgICANCiAgICggIC8gICBgLS5fLy9eYCAgDQogICAgYFktLl9fX18oX199ICAgICAgICAgICAgICANCiAgIC</sub>
+<sub>`secret="${secret}gICggIC8gICBgLS5fLy9eYCAgDQogICAgYFktLl9fX18oX199ICAgICAgICAgICAgICANCiAgICAgfCAgICAge19fKSAgICAgICAgIC"`{{execute T2}}</sub>
 
 Please move on to the next step.
