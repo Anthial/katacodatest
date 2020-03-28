@@ -13,6 +13,6 @@ put in the "docker-compose.yml".
 
 The first step however, is to shut down BuildBot. This can be done in many ways, but the command `docker-compose down`{{execute HOST1}} done inside of the simple folder should start a graceful shutdown. However,
 as you might be able to tell, trying to do so in the same terminal window where BuildBot is running will not work. Luckily the shortcut `CTRL + C` will if used once inside of the terminal window 
-(by clicking the terminal) to initiate a graceful shutdown. 
+(by clicking the terminal where BuildBot is running) to initiate a graceful shutdown. 
 
 Once you've shut down BuildBot please proceed to the next step. 
