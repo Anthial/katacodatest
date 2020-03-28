@@ -9,6 +9,6 @@ However the KataCoda environment is not a local environment, so you have to set 
 Replace `http://localhost:8010/` with `https://[[HOST_SUBDOMAIN]]-8010-[[KATACODA_HOST]].environments.katacoda.com/`
 ![](https://i.gyazo.com/6e195061e37d4c85e79715698922b8b2.gif)
 
-Once you have edited the "docker-compose.yml" you can finally start the Docker image, by heading back into your terminal and running `docker-compose up`{{execute HOST1}}
+Once you have edited the "docker-compose.yml" you can finally start the Docker image, by heading back into your terminal and running `docker-compose up`{{execute T1}}
 
 Please proceed to the next section.
